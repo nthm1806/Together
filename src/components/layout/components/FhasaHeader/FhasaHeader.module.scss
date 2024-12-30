@@ -1,6 +1,4 @@
 .wrapper{
-    color: #333333;
-    font-size: 13px;
     font-weight: 400;
     margin: 0px;
     padding: 0px;
@@ -9,42 +7,34 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
+    height: 40%;
 }
 
 .fhs-top-header-banner{
     width: 100%;
-    height: 60px;
     display: flex;
     // align-items: center;  --Theo chieu docdoc
     background-color: #AB1D1C;
     justify-content: center;
-
 }
 
-.top-banner-block{
-    width: 1300px;
-    display: flex;
-    cursor: pointer;
-
-}
 
 .container{
     padding-left: 0 !important;
     padding-right: 0 !important;
     display: flex;
-    width: 1120px;
-    position: relative;
-    justify-content: flex-start;
-    left: 82px;
-    height: 68px;
-
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .fhs-header-top-second-bar{
 
     display: flex;
     align-items: center;
-    
+    justify-content: center;
+    padding-top: 1%;
 }
 
 
@@ -53,34 +43,29 @@
 }
 
 .fhs_option_header{
-    width: 100px;
-    height: 100%;
-
+    width: 6%;
 }
 
 .fhs_option_header_span{
     display: flex;
     justify-content: flex-end;
-    position: relative;
-    top: 17px;
 }
 
 .fhs_search_header{
 
     position: relative;
-    height: 40px;
-    width: 600px;
+    width: 40%;
     background: rgba(22, 24, 35, 0.06);
     border-radius: 10px;
     display: flex;
     justify-content: center;
-    left: 10px;
+    left: 1%;
 
     input {
-        height: 40px;
-        width: 590px;
+        height: 5vh;
+        width: 98%;
         color: black;
-        font-size: 2.2rem;
+        font-size: 1.5rem;
         border: none;
         caret-color: var(--primary);
         outline: none;
@@ -88,16 +73,16 @@
     }
 
     &:focus-within{
-        border: 1.5px solid black;
+        border: 1.5px solid #7A7E7F;
     }
 
 }
 
 .fhs_button_search_header{
     position:absolute;
-    width: 70px;
-    height: 30px;
-    right: 5px;
+    width: 10%;
+    height: 4vh;
+    right: 0.5vw;
     top: 50%;
     transform: translateY(-50%);
     background-color: red;
@@ -109,14 +94,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 316px;
-    height: 100%;
-    padding-left: 30px;
+    width: 22%;
+    padding-left: 1.8%;
 }
 
 .fhs_noti_header{
-    width: 59px;
-    height: 100%;
+    width: 26%;
     display: flex;
     align-items: center;
     justify-items:center ;
@@ -126,40 +109,27 @@
 
 .fhs_noti_icon_header{
     width: 100%;
-    height: 24px;
-    margin-top: 10px;
+    height: 3vh;
+    margin-top: 2%;
 }
 
-.fhs_top_menu_label{
-    line-height: 18px;
-    color: #7A7E7F;
-    font-size: 12px;
-}
 
 .fhs_language_header_second_bar{
-    width: 76px;
     height: 100%;
     display: flex;
     align-items: center;
     justify-items:center ;
-    cursor: pointer;
-    flex-direction: column;
 }
 
 .fhs_top_language{
-    padding: 8px;
     cursor: pointer;
-    height: 40px;
+    height: 5vh;
+    width: 3.5vw;
     border: 1px solid #CDCFD0;
     border-radius: 8px;
-}
-
-
-.icon_store_default{
-    background-size: contain;
-    height: 24px;
-    width: 37px;
-    background: url(https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/default.svg) no-repeat center center;
+    display: flex;
+    align-items: center;
+    padding-left: 15%;
 }
 
 

@@ -31,7 +31,6 @@ body {
     font-size: 1.3rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
-    color: var(--text-color);
 }
 
 button, input, [tabindex]{
@@ -39,8 +38,6 @@ button, input, [tabindex]{
     border: none;
 }
 
-a [href]{
-    color: var(--black);
+a[href]{
     text-decoration: none;
-
 }

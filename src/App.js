@@ -2,13 +2,13 @@
 import './App.css';
 
 import FhasaHeader from './components/layout/components/FhasaHeader';
+import FahasaFooter from './components/layout/components/FhasaFooter';
 
 function App() {
     return (
         <div>
             <FhasaHeader />
-            <img src ="./logo192.png
-            "/>
+            <FahasaFooter/>
         </div>
     );
 }
