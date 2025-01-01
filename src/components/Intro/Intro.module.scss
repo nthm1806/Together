@@ -1,0 +1,51 @@
+#intro{
+    width: 75%;
+}
+#mainFirtIntro{
+    width: 66%;
+    height:auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 10px;
+    img{
+        min-width: 100%;
+        height:100%;
+    }
+}
+#firtIntro{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    button{
+        width: 28px;
+        height: 28px;
+        position: absolute;
+        top:calc(50% - 14px);
+        border-radius: 50%;
+        cursor: pointer;
+        left:-14px
+    }
+    button:nth-of-type(2){
+        left:calc(66% - 14px) !important   
+    }
+}
+#secondFirtIntro{
+    width: 32%;
+    height: 100%;
+    img{
+        height: 45%;
+        width: 100%;
+        border-radius: 5px;
+    }
+}
+#secondIntro{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   img{
+    width: 25%;
+   }
+}
