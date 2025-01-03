@@ -1,0 +1,143 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 0vh;
+}
+
+.fhs_login {
+    width: 86%;
+    height: 80vh;
+    background-color: rgb(155, 153, 153);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+}
+
+.fhs_login_input {
+    width: 56%;
+    height: 72vh;
+    background-color: rgb(255, 255, 255);
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    padding: 1vw;
+    flex-direction: column;
+}
+
+.fhs_login_register {
+    width: 90%;
+    height: 2vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 1vw;
+    flex-direction: row;
+}
+
+.reset_password{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6vw;
+    cursor: pointer;
+}
+
+.fhs_option_login_register {
+    width: 46%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.6vw;
+    cursor: pointer;
+    &.active {
+        margin-top: 0.5vh;
+        text-decoration: underline solid red;
+        text-underline-offset: 1vw;
+    }
+}
+
+.fhs_option_login_content {
+    width: 90%;
+    height: 50vh;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+}
+
+.input_box {
+    width: 100%;
+    height: 100%;
+    justify-content: start;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5vw;
+}
+
+.input_box input {
+    border: 0.05vw solid rgb(155, 153, 153);
+    padding: 2vh 0vh;
+    width: 100%;
+    height: 5vh;
+    border-radius: 0.5vw;
+    padding-left: 1vw;
+    margin-bottom: 1vw;
+}
+
+.input_box input:focus {
+    border-color: solid rgb(40, 115, 220);
+    box-shadow: 0 0 0.5vw rgb(51, 126, 231);
+}
+
+.forget_password {
+    width: 100%;
+    font-size: 1vw;
+    color: red;
+    justify-content: flex-end;
+    align-items: end;
+    display: flex;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.div_button {
+    width: 100%;
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 5vh;
+}
+
+.div_button button {
+    color: white;
+    padding: 2vw 8vw;
+    border-radius: 2vw;
+    background-color: red;
+    cursor: pointer;
+
+    &:hover {
+        margin-top: 0.5vh;
+    }
+}
+
+.OTP_button {
+    position: relative;
+    right: 1vh;
+    background: white;
+    color: blue;
+    width: auto;
+    height: 4vh;
+    margin-top: 0.5vh;
+    cursor: pointer;
+}

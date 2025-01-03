@@ -24,7 +24,7 @@ function FahasaFooter() {
                     <img
                         src="https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/logo.png"
                         alt=""
-                        style={{ paddingBottom: '3vh' }}
+                        style={{ paddingBottom: '3vh', maxWidth: '100%', maxHeight: '100%' }}
                     />
                     <div>Lầu 5, 387-389 Hai Bà Trưng Quận 3 TP HCM</div>
                     <div>Công Ty Cổ Phần Phát Hành Sách TP HCM - FAHASA</div>
@@ -80,39 +80,43 @@ function FahasaFooter() {
                         >
                             <div className={cx('fhs_letter_big_and_bold')}>Dịch Vụ</div>
                             <p className={cx('fhs_letter_padding_fontSize')}>
-                                <a href="https://www.fahasa.com/dieu-khoan-su-dung" target='_blank'>Điều khoản sử dụng</a>
-                            </p>
-                            <p className={cx('fhs_letter_padding_fontSize')}>
-                                <a href="https://www.fahasa.com/chinh-sach-bao-mat">
-                                Chính sách bảo mật thông tin cá nhân
+                                <a href="https://www.fahasa.com/dieu-khoan-su-dung">
+                                    Điều khoản sử dụng
                                 </a>
                             </p>
                             <p className={cx('fhs_letter_padding_fontSize')}>
-                                <a href="https://www.fahasa.com/chinh-sach-bao-mat-thanh-toan">
-                                Chính sách bảo mật thanh toán
+                                <a href="https://www.fahasa.com/chinh-sach-bao-mat" >
+                                    Chính sách bảo mật thông tin cá nhân
                                 </a>
                             </p>
                             <p className={cx('fhs_letter_padding_fontSize')}>
-                                <a href="https://www.fahasa.com/gioi-thieu-fahasa">Giới thiệu Fahasa</a>
+                                <a href="https://www.fahasa.com/chinh-sach-bao-mat-thanh-toan" >
+                                    Chính sách bảo mật thanh toán
+                                </a>
                             </p>
                             <p className={cx('fhs_letter_padding_fontSize')}>
-                                <a href="https://www.fahasa.com/he-thong-trung-tam-nha-sach">Hệ thống trung tâm - nhà sách</a>
+                                <a href="https://www.fahasa.com/gioi-thieu-fahasa" >Giới thiệu Fahasa</a>
+                            </p>
+                            <p className={cx('fhs_letter_padding_fontSize')}>
+                                <a href="https://www.fahasa.com/he-thong-trung-tam-nha-sach" >
+                                    Hệ thống trung tâm - nhà sách
+                                </a>
                             </p>
                         </div>
                         <div className={cx('fhs_footer_second_text_right_block_one_text')}>
                             <div className={cx('fhs_letter_big_and_bold')}>Hỗ trợ</div>
                             <p className={cx('fhs_letter_padding_fontSize')}>
-                                <a href="https://www.fahasa.com/doi-tra-hang">Chính sách đổi-trả-hoàn tiền</a>
+                                <a href="https://www.fahasa.com/doi-tra-hang" >Chính sách đổi-trả-hoàn tiền</a>
                             </p>
                             <p className={cx('fhs_letter_padding_fontSize')}>
-                                <a href="">Chính sách bảo hành - bồi hoàn</a>
+                                <a href="" alt="">Chính sách bảo hành - bồi hoàn</a>
                             </p>
                             <p className={cx('fhs_letter_padding_fontSize')}>
                                 <a href="">Chính sách vận chuyển</a>
                             </p>
                             <p className={cx('fhs_letter_padding_fontSize')}>
                                 <a href="">Chính sách khách sỉ</a>
-                           </p>
+                            </p>
                         </div>
                         <div
                             className={cx('fhs_footer_second_text_right_block_one_text')}
@@ -127,11 +131,9 @@ function FahasaFooter() {
                             </p>
                             <p className={cx('fhs_letter_padding_fontSize')}>
                                 <a href="">Chính sách bảo mật thanh toán</a>
-
                             </p>
                             <p className={cx('fhs_letter_padding_fontSize')}>
                                 <a href="">Giới thiệu Fahasa</a>
-
                             </p>
                             <p className={cx('fhs_letter_padding_fontSize')}>
                                 <a href="">Hệ thống trung tâm - nhà sách</a>
@@ -174,11 +176,9 @@ function FahasaFooter() {
                 </div>
             </div>
             <div className={cx('fhs_footer_block_three')}>
-            Giấy chứng nhận Đăng ký Kinh doanh số 0304132047 
-            do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh 
-            cấp ngày 20/12/2005, đăng ký thay đổi lần thứ 10, ngày 20/05/2022.
+                Giấy chứng nhận Đăng ký Kinh doanh số 0304132047 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp ngày
+                20/12/2005, đăng ký thay đổi lần thứ 10, ngày 20/05/2022.
             </div>
-
         </div>
     );
 }

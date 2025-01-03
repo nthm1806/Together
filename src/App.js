@@ -1,15 +1,15 @@
 // import logo from './logo.svg';
 import './App.css';
-import FhasaHeader from './components/layout/components/FhasaHeader';
-import FahasaFooter from './components/layout/components/FhasaFooter';
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
-import Home from './router/Home'
+import RouterHome from './router/Home'
+import RouterLogin from './router/Login'
 
 function App() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path='/' element={<Home/>} />
+                <Route path='/' element={<RouterHome/>} />
+                <Route path='/login' element={<RouterLogin/>} />
             </Routes>
         </BrowserRouter>
     );

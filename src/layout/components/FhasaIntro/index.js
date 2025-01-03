@@ -7,7 +7,7 @@ import {useNavigate} from 'react-router-dom'
 const cx = classNames.bind(styles);
 
 
-function Intro() {
+function Index() {
     const navigate = useNavigate()
     const buttonRef = useRef([]);
     const imageRef = useRef([]);
@@ -103,4 +103,4 @@ function Intro() {
   )
 }
 
-export default Intro
+export default Index
