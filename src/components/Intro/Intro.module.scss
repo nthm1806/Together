@@ -1,12 +1,14 @@
 #intro{
     width: 75%;
+    img{
+        cursor: pointer;
+    }
 }
 #mainFirtIntro{
     width: 66%;
     height:auto;
     display: flex;
     position: relative;
-    justify-content: center;
     overflow: hidden;
     object-fit: cover;
     border-radius: 10px;
