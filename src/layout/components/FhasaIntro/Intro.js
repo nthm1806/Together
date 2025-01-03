@@ -1,7 +1,7 @@
 import React,{useEffect, useRef, useState} from 'react'
 import styles from './Intro.module.scss';
 import classNames from 'classnames/bind';
-import gsap from 'gsap'
+import gsap from 'gsap';
 
 const cx = classNames.bind(styles);
 
