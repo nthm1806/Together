@@ -5,12 +5,21 @@ import classNames from 'classnames/bind';
 const cx = classNames.bind(styles);
 
 function Login() {
-    const [isActive, setIsActive] = useState(true);
+    const [isActiveLogin, setIsActiveLogin] = useState(true);
+    const [isActiveRegister, setIsActiveRegister] = useState(false);
+
     const [showPassword, setShowPassword] = useState(false);
     const [forgetPassword, setForgetPassword] = useState(false);
 
     const handleLogin = () => {
-        return setIsActive(!isActive);
+        setIsActiveLogin(true);
+        setIsActiveRegister(false);
+    };
+
+    
+    const handleRegister = () => {
+        setIsActiveRegister(true);
+        setIsActiveLogin(false);
     };
 
     const handleShowPassword = () => {
@@ -29,14 +38,14 @@ function Login() {
                         {!forgetPassword && (
                             <>
                                 <div
-                                    className={cx('fhs_option_login_register', { active: isActive })}
+                                    className={cx('fhs_option_login_register', { active: isActiveLogin })}
                                     onClick={handleLogin}
                                 >
                                     Đăng Nhập
                                 </div>
                                 <div
-                                    className={cx('fhs_option_login_register', { active: !isActive })}
-                                    onClick={handleLogin}
+                                    className={cx('fhs_option_login_register', { active: isActiveRegister })}
+                                    onClick={handleRegister}
                                 >
                                     Đăng Kí
                                 </div>
@@ -83,7 +92,7 @@ function Login() {
                                 </>
                             )}
 
-                            {!isActive && !forgetPassword && (
+                            {!isActiveLogin && !forgetPassword && (
                                 <>
                                     <div style={{ marginBottom: '1vw' }}>Số điện thoại</div>
                                     <div style={{ width: '100%', display: 'flex' }}>
@@ -113,7 +122,7 @@ function Login() {
                                 </>
                             )}
 
-                            {isActive && !forgetPassword && (
+                            {!isActiveRegister && !forgetPassword && (
                                 <>
                                     <div style={{ marginBottom: '1vw' }}>Số điện thoại</div>
                                     <input type="text" placeholder="Nhập số điện thoại..." />

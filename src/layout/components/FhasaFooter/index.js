@@ -40,32 +40,32 @@ function FahasaFooter() {
                     />
 
                     <div style={{ display: 'flex', flexDirection: 'row' }}>
-                        <a href="https://www.facebook.com/fahasa/">
+                        <a href="https://www.facebook.com/fahasa/" alt="" >
                             <img src="Facebook-on.png" alt="" />
                         </a>
-                        <a href="https://www.instagram.com/fahasa_official/">
+                        <a href="https://www.instagram.com/fahasa_official/" alt="" >
                             <img src="Insta-on.png" alt="" />
                         </a>
-                        <a href="https://www.youtube.com/channel/UCUZcVOLSxK1q6RfgzQ9-HYQ">
+                        <a href="https://www.youtube.com/channel/UCUZcVOLSxK1q6RfgzQ9-HYQ" alt="" >
                             <img src="Youtube-on.png" alt="" />
                         </a>
-                        <a href="https://fahasa-blog.tumblr.com/">
+                        <a href="https://fahasa-blog.tumblr.com/" alt="" >
                             <img src="tumblr-on.png" alt="" />
                         </a>
-                        <a href="https://twitter.com/Fahasa_com">
+                        <a href="https://twitter.com/Fahasa_com" alt="" >
                             <img src="twitter-on.png" alt="" />
                         </a>
-                        <a href="https://www.pinterest.com/fahasavn/">
+                        <a href="https://www.pinterest.com/fahasavn/" alt="" >
                             <img src="pinterest.png" alt="" />
                         </a>
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'row' }}>
-                        <a href="https://play.google.com/store/apps/details?id=com.fahasa.android.fahasa&pli=1">
+                        <a href="https://play.google.com/store/apps/details?id=com.fahasa.android.fahasa&pli=1" alt="" >
                             <img src="android1.png" alt="" style={{ width: '84%' }} />
                         </a>
                         <a
                             href="https://wwhttps://apps.apple.com/us/app/fahasa-th%E1%BA%BF-gi%E1%BB%9Bi
-                         -trong-t%E1%BA%A7m-tay/id1227597830w.pinterest.com/fahasavn/"
+                         -trong-t%E1%BA%A7m-tay/id1227597830w.pinterest.com/fahasavn/" alt="" 
                         >
                             <img src="appstore1.png" alt="" style={{ width: '62%' }} />
                         </a>
@@ -80,25 +80,25 @@ function FahasaFooter() {
                         >
                             <div className={cx('fhs_letter_big_and_bold')}>Dịch Vụ</div>
                             <p className={cx('fhs_letter_padding_fontSize')}>
-                                <a href="https://www.fahasa.com/dieu-khoan-su-dung">
+                                <a href="https://www.fahasa.com/dieu-khoan-su-dung" alt="" >
                                     Điều khoản sử dụng
                                 </a>
                             </p>
                             <p className={cx('fhs_letter_padding_fontSize')}>
-                                <a href="https://www.fahasa.com/chinh-sach-bao-mat" >
+                                <a href="https://www.fahasa.com/chinh-sach-bao-mat"  alt=""  >
                                     Chính sách bảo mật thông tin cá nhân
                                 </a>
                             </p>
                             <p className={cx('fhs_letter_padding_fontSize')}>
-                                <a href="https://www.fahasa.com/chinh-sach-bao-mat-thanh-toan" >
+                                <a href="https://www.fahasa.com/chinh-sach-bao-mat-thanh-toan"  alt="" >
                                     Chính sách bảo mật thanh toán
                                 </a>
                             </p>
                             <p className={cx('fhs_letter_padding_fontSize')}>
-                                <a href="https://www.fahasa.com/gioi-thieu-fahasa" >Giới thiệu Fahasa</a>
+                                <a href="https://www.fahasa.com/gioi-thieu-fahasa"  alt="" >Giới thiệu Fahasa</a>
                             </p>
                             <p className={cx('fhs_letter_padding_fontSize')}>
-                                <a href="https://www.fahasa.com/he-thong-trung-tam-nha-sach" >
+                                <a href="https://www.fahasa.com/he-thong-trung-tam-nha-sach" alt=""  >
                                     Hệ thống trung tâm - nhà sách
                                 </a>
                             </p>
@@ -106,16 +106,16 @@ function FahasaFooter() {
                         <div className={cx('fhs_footer_second_text_right_block_one_text')}>
                             <div className={cx('fhs_letter_big_and_bold')}>Hỗ trợ</div>
                             <p className={cx('fhs_letter_padding_fontSize')}>
-                                <a href="https://www.fahasa.com/doi-tra-hang" >Chính sách đổi-trả-hoàn tiền</a>
+                                <a href="https://www.fahasa.com/doi-tra-hang" alt=""  >Chính sách đổi-trả-hoàn tiền</a>
                             </p>
                             <p className={cx('fhs_letter_padding_fontSize')}>
-                                <a href="" alt="">Chính sách bảo hành - bồi hoàn</a>
+                                <a href="/" alt="">Chính sách bảo hành - bồi hoàn</a>
                             </p>
                             <p className={cx('fhs_letter_padding_fontSize')}>
-                                <a href="">Chính sách vận chuyển</a>
+                                <a href="/" alt="" >Chính sách vận chuyển</a>
                             </p>
                             <p className={cx('fhs_letter_padding_fontSize')}>
-                                <a href="">Chính sách khách sỉ</a>
+                                <a href="/" alt="" >Chính sách khách sỉ</a>
                             </p>
                         </div>
                         <div
@@ -124,19 +124,19 @@ function FahasaFooter() {
                         >
                             <div className={cx('fhs_letter_big_and_bold')}>Tài khoản của tôi</div>
                             <p className={cx('fhs_letter_padding_fontSize')}>
-                                <a href="">Điều khoản sử dụng</a>
+                                <a href="/" alt="" >Điều khoản sử dụng</a>
                             </p>
                             <p className={cx('fhs_letter_padding_fontSize')}>
-                                <a href="">Chính sách bảo mật thông tin cá nhân</a>
+                                <a href="/" alt="" >Chính sách bảo mật thông tin cá nhân</a>
                             </p>
                             <p className={cx('fhs_letter_padding_fontSize')}>
-                                <a href="">Chính sách bảo mật thanh toán</a>
+                                <a href="/" alt="" >Chính sách bảo mật thanh toán</a>
                             </p>
                             <p className={cx('fhs_letter_padding_fontSize')}>
-                                <a href="">Giới thiệu Fahasa</a>
+                                <a href="/" alt="" >Giới thiệu Fahasa</a>
                             </p>
                             <p className={cx('fhs_letter_padding_fontSize')}>
-                                <a href="">Hệ thống trung tâm - nhà sách</a>
+                                <a href="/" alt="" >Hệ thống trung tâm - nhà sách</a>
                             </p>
                         </div>
                     </div>
