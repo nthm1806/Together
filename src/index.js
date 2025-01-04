@@ -9,9 +9,9 @@ import FhasaGlobalStyle from './components/fahasa-Globalstyles';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <FhasaGlobalStyle>
-        <React.StrictMode>
+        {/* <React.StrictMode> */}
             <App />
-        </React.StrictMode>
+        {/* </React.StrictMode> */}
     </FhasaGlobalStyle>
 );
 
